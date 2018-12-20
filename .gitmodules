@@ -1,3 +1,6 @@
 [submodule "SwishFish-game"]
 	path = SwishFish-game
 	url = https://github.com/alessio-b-zak/SwishFish-game
+[submodule "SwishFish-controls"]
+	path = SwishFish-controls
+	url = https://github.com/alessio-b-zak/SwishFish-controls/
