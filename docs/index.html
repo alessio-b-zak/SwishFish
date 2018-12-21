@@ -16,7 +16,7 @@
         <div id="logo_text">
           <!-- class="logo_colour", allows you to change the colour of the text -->
           <h1><a href="index.html">Swish<span class="logo_colour">Fish</span></a></h1>
-          <h2>Investigating Gesture Controlled Robot Fish as a Community Relaxation Intervention</h2>
+          <h2>Investigating Gesture Controlled Robots as a Community Relaxation Intervention</h2>
         </div>
       </div>
       <div id="menubar">
@@ -45,6 +45,7 @@
             <h3>Useful Links</h3>
             <ul>
               <li><a href="https://github.com/alessio-b-zak/SwishFish">GitHub Repository</a></li>
+              <li><a href="https://github.com/alessio-b-zak/SwishFish">Webcam Stand CAD Files</a></li>
             </ul>
           </div>
           <div class="sidebar_base"></div>
@@ -58,7 +59,7 @@
           <li>The <strong>Controls</strong> folder contains the files required to set up the logistic regression model for gesture controls. </li>
           <li>The <strong>Game</strong> folder contains the files required to set up the pygame based simulation</li>
         </ul>
-        <p>First, download all files locally. With Python 3.5, install the Pipenv virtual environments in each of these subfolders. In two separate terminal windows, in each virtual environment, navigate to the parent folder of the controls and game subfolders. </p>
+        <p>First, download all files locally. With Python 3.5, install the <a href="https://pipenv.readthedocs.io/en/latest/">Pipenv</a> virtual environments in each of these subfolders. In two separate terminal windows, in each virtual environment, navigate to the parent folder of the controls and game subfolders. </p>
         <p>With the terminal in the controls virtual environment, run the command python SwishFish-controls/Predict.py -h to see the command line arguments required to set up the gesture controls.</p>
         <p>Once this is set up, with the game virtual environment terminal, just run python SwishFish-game/main.py to set up the game (and click on the window that pops up to initialise the logistic regression training - this is a side-effect of the piping system)</p>
         <p>The reason for being in the parent folder to controls and game is due to using UNIX pipes (through python's os module) to send gesture commands between the predictor and the game.
